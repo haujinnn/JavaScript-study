@@ -35,8 +35,8 @@ printAll('dream', 'coding', 'yujin');
 let globalMessage = 'global';
 function printMessage(){
     let message = 'hello';
-    console.log(message);
-    console.log(globalMessage);
+    console.log(message); 
+    console.log(globalMessage); //전역변수를 함수 내에서 사용가능
     function printAnother(){
         console.log(message);
         let childMessage = 'hello';
