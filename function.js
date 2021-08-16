@@ -41,7 +41,7 @@ function printMessage(){
         console.log(message);
         let childMessage = 'hello';
     }
-    // console.log(childMessage); //error
+    // console.log(childMessage); //error. 함수안에서 만든 지역변수를 함수밖에서 사용 불가능
 }
 printMessage();
 
